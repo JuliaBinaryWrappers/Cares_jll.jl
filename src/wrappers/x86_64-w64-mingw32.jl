@@ -2,12 +2,18 @@
 export acountry, adig, ahost, libcares
 
 JLLWrappers.@generate_wrapper_header("Cares")
+JLLWrappers.@declare_library_product(libcares, "libcares.dll")
 JLLWrappers.@declare_executable_product(acountry)
 JLLWrappers.@declare_executable_product(adig)
 JLLWrappers.@declare_executable_product(ahost)
-JLLWrappers.@declare_library_product(libcares, "libcares.dll")
 function __init__()
     JLLWrappers.@generate_init_header()
+    JLLWrappers.@init_library_product(
+        libcares,
+        "bin\\libcares.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         acountry,
         "bin\\acountry.exe",
@@ -21,12 +27,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         ahost,
         "bin\\ahost.exe",
-    )
-
-    JLLWrappers.@init_library_product(
-        libcares,
-        "bin\\libcares.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()

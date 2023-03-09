@@ -2,12 +2,18 @@
 export acountry, adig, ahost, libcares
 
 JLLWrappers.@generate_wrapper_header("Cares")
+JLLWrappers.@declare_library_product(libcares, "@rpath/libcares.2.dylib")
 JLLWrappers.@declare_executable_product(acountry)
 JLLWrappers.@declare_executable_product(adig)
 JLLWrappers.@declare_executable_product(ahost)
-JLLWrappers.@declare_library_product(libcares, "@rpath/libcares.2.dylib")
 function __init__()
     JLLWrappers.@generate_init_header()
+    JLLWrappers.@init_library_product(
+        libcares,
+        "lib/libcares.2.6.0.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         acountry,
         "bin/acountry",
@@ -21,12 +27,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         ahost,
         "bin/ahost",
-    )
-
-    JLLWrappers.@init_library_product(
-        libcares,
-        "lib/libcares.2.5.1.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()
