@@ -1,143 +1,143 @@
 [[Cares]]
 arch = "aarch64"
-git-tree-sha1 = "bf725965ab59e82fb4624491512c0d24a2beb2b5"
+git-tree-sha1 = "d9371714d2f93e6c985c97353e8fc82adec8ae48"
 os = "macos"
 
     [[Cares.download]]
-    sha256 = "fa22c8cae81352e7b0d6a81fcd30ae02f91d10cbe221295d60bb56127e737a63"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "21b42e063fe004b222ba0f67fdf654f6d1370d47189084661b62ec6bf2dfb243"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.aarch64-apple-darwin.tar.gz"
 [[Cares]]
 arch = "aarch64"
-git-tree-sha1 = "589777da15dc05be6dc514da24a34f6b46161fb9"
+git-tree-sha1 = "c8740d2ffac7649c361fe770f97150aafd207352"
 libc = "glibc"
 os = "linux"
 
     [[Cares.download]]
-    sha256 = "e50da0a441ad5a7c92901ccf9e11f727ab38f39ce25bd37505b59c64ce07c2b6"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "bd53c12a94432f47d52176b4929023d95d1381739e0fff86481600dda2c930cb"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.aarch64-linux-gnu.tar.gz"
 [[Cares]]
 arch = "aarch64"
-git-tree-sha1 = "3b94cbac7049cd95ffc372d176d1dfb6185c1301"
+git-tree-sha1 = "5e4ad74fafde640e9c58b0bda4ada55f085820a6"
 libc = "musl"
 os = "linux"
 
     [[Cares.download]]
-    sha256 = "e3c8d0765fba83662dfb18517ead5b4ce075f024e412cd3a3c298003e2d421d3"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.aarch64-linux-musl.tar.gz"
+    sha256 = "b994ef83883bd205cc5b7d7c9eb9fd94da718e935c763d8c6f334e1edf2729ba"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.aarch64-linux-musl.tar.gz"
 [[Cares]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "de120064948801ceda4a27a13f9129a8b17078cd"
+git-tree-sha1 = "5888c09dde30bf40fbf5f8e7c56f84c589035ef5"
 libc = "glibc"
 os = "linux"
 
     [[Cares.download]]
-    sha256 = "fcbea030872428c1a3225427d98fb5e4484dcc9e1c2c9376c4ed4017a42fbe79"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "e07e7eb102605a70a9e1b3a93ec0ae4cd02e8a3199693ea23a2479ed6ca9a2f2"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.armv6l-linux-gnueabihf.tar.gz"
 [[Cares]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "1900a9890927665f6e8a142c300c6ad959fcbe0b"
+git-tree-sha1 = "fee48794a8364387c0c6dd11a5a368e4de3d33de"
 libc = "musl"
 os = "linux"
 
     [[Cares.download]]
-    sha256 = "d6e8370d7c3cf67913891ed6e612a6e3a3da3cc52a29b8fee5e5e99182933c51"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "c79f84da96a8acfea8c7ff4a8a8697bb09e7c7ebb5b72b8796b413c65a7ed955"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.armv6l-linux-musleabihf.tar.gz"
 [[Cares]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "2c2b3d164260ff4d7015b67347d24ad7011c41be"
+git-tree-sha1 = "2d80401cb8b2acac4f14ab361dbda9a12c4b48b0"
 libc = "glibc"
 os = "linux"
 
     [[Cares.download]]
-    sha256 = "c439c20c6a0f944b58a0d27ce6406f793b6763aabaa3aac4cde3bd1c612b20b1"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "0d77e57eab08a099f28d656fb827f44ebd0452ff94923daa654a8ef95cebc48d"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.armv7l-linux-gnueabihf.tar.gz"
 [[Cares]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "b6306bdec66c1fe1974b31271f0c2f0af21677da"
+git-tree-sha1 = "2e63d59cfc693063bc8a25e8406bf1dafc02d31d"
 libc = "musl"
 os = "linux"
 
     [[Cares.download]]
-    sha256 = "1199adaa028a46ae0e255a669889bacdc51cfd1861e61b9217ce1fc2a2d500ff"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "5f9a7beded827de89cceccd9d1acb0fa2bb2f46125d96ac7be890dbf08ef7995"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.armv7l-linux-musleabihf.tar.gz"
 [[Cares]]
 arch = "i686"
-git-tree-sha1 = "0b7829dc4c7443f5ca436248cd974f389b2f68bc"
+git-tree-sha1 = "447b9b12e99b9729ff092b7d5841a3f562fd3293"
 libc = "glibc"
 os = "linux"
 
     [[Cares.download]]
-    sha256 = "f6e3f36d09fbec0a6d498667435786c44bfa441590904e225ce0e31ffb9386f3"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.i686-linux-gnu.tar.gz"
+    sha256 = "d9e445ca1db6a6ad9650c62b456af0734fc1bab14b2183099d862d740cdf2b70"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.i686-linux-gnu.tar.gz"
 [[Cares]]
 arch = "i686"
-git-tree-sha1 = "6bcfeac9d7d4de754992e6a71dbeea668044a315"
+git-tree-sha1 = "b2c00c28582445f07aff67ab6c9963e1f74ade37"
 libc = "musl"
 os = "linux"
 
     [[Cares.download]]
-    sha256 = "901319b6d49e18edc087b2e1bdec4d73b671fa9a6b35737d5a227c4c036315f0"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.i686-linux-musl.tar.gz"
+    sha256 = "9f38f3a85831887f21d4073239690c434dc52579bf7232a9d756fe17865e7b5b"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.i686-linux-musl.tar.gz"
 [[Cares]]
 arch = "i686"
-git-tree-sha1 = "8e79dfb794d0ed180177b2242b26f8d61c64d05c"
+git-tree-sha1 = "89e0c089ab4042a3e15fb1155306c9aed49a0f7a"
 os = "windows"
 
     [[Cares.download]]
-    sha256 = "796874503f34f20a3c7679d214d72f7592fee3eca4a987993efbc950c0faf00f"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.i686-w64-mingw32.tar.gz"
+    sha256 = "0d7efd6f75ea2a49a4720a42cf6be09eee819bbb64e6bc803fdc064a4e850534"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.i686-w64-mingw32.tar.gz"
 [[Cares]]
 arch = "powerpc64le"
-git-tree-sha1 = "a1cf479a9e6f3c85231c5760f61c775c7486d9f0"
+git-tree-sha1 = "f2069510525030dfd10bbf25ce04a2da16da7c89"
 libc = "glibc"
 os = "linux"
 
     [[Cares.download]]
-    sha256 = "e595ba48881f07c5cd1e46a2486d573c1f2b703bfccea0d7891e9ca67009ae86"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "bb842f6793f8bc9c51d95169245585aa13d900289c214be82f725407bc07d252"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.powerpc64le-linux-gnu.tar.gz"
 [[Cares]]
 arch = "x86_64"
-git-tree-sha1 = "d84d9ea9b5577c7af4b3f61a344e759062a6dc11"
+git-tree-sha1 = "792d767964374bc49b484f13210293c9431bc979"
 os = "macos"
 
     [[Cares.download]]
-    sha256 = "89b3926f99fec43ea621f7e2fa7fff2cc59266a422465c2282c297ad30ca9ed4"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.x86_64-apple-darwin.tar.gz"
+    sha256 = "ac72f46ae16c3dba9da2910e28dbc91738f80a5c10fac43d2a467c540bbc6e5d"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.x86_64-apple-darwin.tar.gz"
 [[Cares]]
 arch = "x86_64"
-git-tree-sha1 = "07091fe2dff29a3413e61862011a192c3f0c8ae8"
+git-tree-sha1 = "2fa49034afdde6013bc90c8855734d2578898170"
 libc = "glibc"
 os = "linux"
 
     [[Cares.download]]
-    sha256 = "dc196327b02abbdcd00b868ae7e6eb110aad581bbffee97203b10fc5c2298f18"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.x86_64-linux-gnu.tar.gz"
+    sha256 = "ca5bf7d8d3f84e53d2a688c31a6533b8c554bb3e1430317b0d4ebc3a61f58547"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.x86_64-linux-gnu.tar.gz"
 [[Cares]]
 arch = "x86_64"
-git-tree-sha1 = "b851af872b27e0ebab1ef6b45dada73e60048533"
+git-tree-sha1 = "40b8d33fa79834d2a54fb2e0dc70f5ac0f8012f9"
 libc = "musl"
 os = "linux"
 
     [[Cares.download]]
-    sha256 = "2c7a676280dfeff844634c152abf651e6bc588c6a035869c5bd79a79f97f5c78"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.x86_64-linux-musl.tar.gz"
+    sha256 = "2e7a0696c6fc5e0377d5c88e4e545aa198829ed0f5fd3a74c7c620218ec27cdb"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.x86_64-linux-musl.tar.gz"
 [[Cares]]
 arch = "x86_64"
-git-tree-sha1 = "643ba206f9096b0072c404e7203e4b252c46004a"
+git-tree-sha1 = "3aa8793b282f40b55cc23c3a385635f5c18315dd"
 os = "freebsd"
 
     [[Cares.download]]
-    sha256 = "3b4ddb827e08b70b9b5833028e6dbe00e0dcff28d9398f2c00e46f1cf2f24c46"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "4ae0b18810d50cee7a52516300f8f7fbb414f8a79c37d34ea60c8afa635a44a5"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.x86_64-unknown-freebsd.tar.gz"
 [[Cares]]
 arch = "x86_64"
-git-tree-sha1 = "f8d5b25511de0d0170fa4df79e5e96455ef1a950"
+git-tree-sha1 = "11c26e304fc2b2b7708d2f7e1671b6b0273a237a"
 os = "windows"
 
     [[Cares.download]]
-    sha256 = "f2604d4548d2b7a9b47f5420037fcba77bc2269775a16d992d6bac2d7d752a28"
-    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.19.1+0/Cares.v1.19.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "9930acd935df4aae791a7426d37cdc845c65c077340dfc342572af419308ea28"
+    url = "https://github.com/JuliaBinaryWrappers/Cares_jll.jl/releases/download/Cares-v1.22.0+0/Cares.v1.22.0.x86_64-w64-mingw32.tar.gz"
