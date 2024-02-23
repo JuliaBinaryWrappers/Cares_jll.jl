@@ -9,7 +9,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libcares,
-        "lib/libcares.2.11.0.dylib",
+        "lib/libcares.2.12.0.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
