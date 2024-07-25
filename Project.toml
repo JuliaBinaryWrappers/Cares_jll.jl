@@ -1,6 +1,6 @@
 name = "Cares_jll"
 uuid = "de7616f8-1794-5cde-83a7-2ebe299f2f48"
-version = "1.32.2+0"
+version = "1.32.3+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
